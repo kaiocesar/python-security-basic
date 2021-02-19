@@ -20,5 +20,5 @@ def main():
         print("Failed connected: {}".format(error))
         sys.exit()
     
-        
-main()
+if __name__ == '__main__':
+    main()
